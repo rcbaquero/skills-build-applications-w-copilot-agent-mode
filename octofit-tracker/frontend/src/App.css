@@ -1,0 +1,34 @@
+.app-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: rgba(13, 110, 253, 0.08);
+  padding: 6px;
+}
+
+.app-logo-nav {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(13, 110, 253, 0.08);
+}
+
+main {
+  min-height: calc(100vh - 72px);
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.progress {
+  height: 0.8rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
